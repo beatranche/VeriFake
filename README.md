@@ -1,25 +1,46 @@
 # Proyecto de Análisis y Detección de Noticias Falsas
 
-![Fake News Detection](https://upload.wikimedia.org/wikipedia/commons/4/47/Fake-news.png)
-*Imagen ilustrativa de detección de noticias falsas (Fuente: Wikimedia Commons)*
+![Fake News Detection](images/fake_news_detection.jpg)
+*Detección de Noticias Falsas en Español mediante Machine Learning y Procesamiento de Lenguaje Natural (NLP)*
 
-Este proyecto permite analizar y detectar noticias falsas en español utilizando técnicas de *machine learning* y procesamiento de lenguaje natural (NLP). La aplicación también incluye funciones de scraping para recolectar noticias de diferentes fuentes, así como un generador de titulares tipo clickbait.
+Este proyecto permite analizar y detectar noticias falsas en español a través de modelos de *machine learning* y técnicas de *NLP*. Incluye funciones avanzadas de scraping para recolectar noticias desde diferentes fuentes, así como un generador de titulares tipo clickbait para probar el impacto de los encabezados en las noticias.
+
+---
 
 ## Tabla de Contenidos
 - [Características](#características)
+- [Requisitos Previos](#requisitos-previos)
 - [Instalación](#instalación)
+- [Configuración del Entorno](#configuración-del-entorno)
 - [Ejecución de la Aplicación](#ejecución-de-la-aplicación)
-- [Descripción de la Aplicación](#descripción-de-la-aplicación)
 - [Uso de la Aplicación](#uso-de-la-aplicación)
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Contribuciones](#contribuciones)
 
+---
+
 ## Características
 
-- **Detección de Fake News**: Clasificación de noticias en verdaderas o falsas mediante modelos de machine learning.
-- **Scraping de Noticias**: Recolección de noticias de una fuente en línea con posibilidad de almacenamiento en archivo.
-- **Análisis de Datos**: Visualización de características de los datos, incluyendo análisis de sentimiento, longitud de texto y fuentes principales.
-- **Generador de Titulares Clickbait**: Genera titulares llamativos basados en un tema dado mediante la API de OpenAI.
+El proyecto está dividido en múltiples funciones interactivas que permiten:
+
+1. **Clasificación de Noticias**: Analizar si una noticia es falsa o verdadera utilizando varios modelos de *machine learning*.
+2. **Scraping de Noticias**: Recopilar noticias en español desde una fuente en línea, con opción de almacenamiento en archivos CSV.
+3. **Análisis Exploratorio**: Visualizaciones de la longitud de las noticias, análisis de sentimiento, principales fuentes y otras características.
+4. **Generador de Titulares**: Crear titulares tipo *clickbait* sobre un tema dado usando la API de OpenAI.
+
+---
+
+## Requisitos Previos
+
+### Dependencias Principales:
+- **Python 3.7 o superior**
+- **Bibliotecas**:
+    - `streamlit`, `pandas`, `matplotlib`, `seaborn`
+    - `scikit-learn`, `xgboost`
+    - `selenium` y un *WebDriver* compatible (como ChromeDriver)
+    - `openai` para el generador de titulares
+
+---
 
 ## Instalación
 
@@ -50,9 +71,12 @@ Este proyecto permite analizar y detectar noticias falsas en español utilizando
 5. **Configurar WebDriver**:
    - Instala un driver de Selenium compatible con tu navegador (ChromeDriver, GeckoDriver, etc.) y añade su ruta a tu PATH o colócala en el directorio del proyecto.
 
+---
+
 ## Ejecución de la Aplicación
 
 Para ejecutar la aplicación de Streamlit:
 ```bash
 streamlit run app.py
+
 

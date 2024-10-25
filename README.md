@@ -1,6 +1,7 @@
 # Proyecto de Análisis y Detección de Noticias Falsas
 
-![Fake News Detection](images/fake_news_detection.jpg)
+![image](https://github.com/user-attachments/assets/1ce0e450-ce64-4fb6-84b8-317675787ad8)
+
 *Detección de Noticias Falsas en Español mediante Machine Learning y Procesamiento de Lenguaje Natural (NLP)*
 
 Este proyecto permite analizar y detectar noticias falsas en español a través de modelos de *machine learning* y técnicas de *NLP*. Incluye funciones avanzadas de scraping para recolectar noticias desde diferentes fuentes, así como un generador de titulares tipo clickbait para probar el impacto de los encabezados en las noticias.

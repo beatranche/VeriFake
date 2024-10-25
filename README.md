@@ -3,9 +3,9 @@
 ![image](https://github.com/user-attachments/assets/30e27e90-1746-45ea-9c34-e13bce4d0767)
 
 
-*Detección de Noticias Falsas en Español mediante Machine Learning y Procesamiento de Lenguaje Natural (NLP)*
+*Detección de Noticias Falsas en Español mediante Machine Learning 
 
-Este proyecto permite analizar y detectar noticias falsas en español a través de modelos de *machine learning* y técnicas de *NLP*. Incluye funciones avanzadas de scraping para recolectar noticias desde diferentes fuentes, así como un generador de titulares tipo clickbait para probar el impacto de los encabezados en las noticias.
+Este proyecto permite analizar y detectar noticias falsas en español a través de modelos de *machine learning*. Incluye funciones avanzadas de scraping para recolectar noticias desde diferentes fuentes, así como un generador de titulares tipo clickbait para probar el impacto de los encabezados en las noticias.
 
 ---
 

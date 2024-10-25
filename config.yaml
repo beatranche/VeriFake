@@ -1,0 +1,19 @@
+# Especificaciones del despliegue
+app:
+  main_script: app.py  # El archivo principal que ejecuta Streamlit
+  command: streamlit run app.py
+
+dependencies:
+  # Incluye el archivo de dependencias
+  - requirements.txt
+
+  # Descargas adicionales
+  postInstall:
+    # Descargar datos de NLTK y spaCy
+    - python -m spacy download es_core_news_sm
+    - python -c "import nltk; nltk.download('stopwords'); nltk.download('punkt'); nltk.download('wordnet')"
+
+server:
+  enableCORS: false
+  headless: true
+

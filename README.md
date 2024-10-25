@@ -1,6 +1,7 @@
 # Proyecto de Análisis y Detección de Noticias Falsas
 
-![image](https://github.com/user-attachments/assets/1ce0e450-ce64-4fb6-84b8-317675787ad8)
+![image](https://github.com/user-attachments/assets/30e27e90-1746-45ea-9c34-e13bce4d0767)
+
 
 *Detección de Noticias Falsas en Español mediante Machine Learning y Procesamiento de Lenguaje Natural (NLP)*
 
